@@ -19,6 +19,10 @@
     '<form action="update.php" method="GET">
         <input type="hidden" name="id" value="' . $school['id'] . '">
         <input type="submit" value="EDIT">
+      </form>' .
+      '<form action="delete.php" method="POST" style="display:inline-block;">
+        <input type="hidden" name="id" value="' . $school['id'] . '">
+        <input type="submit" value="DELETE" onclick="return confirm(\'Are you sure you want to delete this school?\');">
       </form>';
   }
 ?>
