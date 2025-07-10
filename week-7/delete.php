@@ -9,4 +9,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
 
 header('Location: index.php');
 exit(); 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 2517926a77657cdf3ecb6111987ddcb9a23dee52
